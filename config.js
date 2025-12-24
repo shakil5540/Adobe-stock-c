@@ -2,7 +2,7 @@
 // Only contains public API endpoints, no secrets or implementation details
 const CONFIG = {
     // Public backend URLs only
-    PRIMARY_BACKEND: 'https://dcz-zeta-flame.vercel.app',
+    PRIMARY_BACKEND: 'https://dzs-zeta-flame.vercel.app',
     BACKUP_BACKEND: 'http://localhost:8080',
 
     // Client-side settings only
@@ -13,4 +13,5 @@ const CONFIG = {
 
 // Export for use in app.js
 window.CONFIG = CONFIG;
+
 
